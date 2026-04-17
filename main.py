@@ -1,4 +1,4 @@
-from calculator import add, subtract
+from calculator import add
 from validator import is_integer
 
 a = 5
