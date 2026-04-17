@@ -1,6 +1,10 @@
 from calculator import add
+from validator import is_integer
 
-a = input("First number")
-b = input("Second number")
+a = 5
+b = 3
 
-print(add(a, b))
+if is_integer(a) and is_integer(b):
+    print(add(a, b))
+else:
+    print("Exception: numbers")
