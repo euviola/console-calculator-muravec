@@ -1,2 +1,2 @@
 def invariance():
-    assert 1 + 5 == 5 + 1
+    assert 1 + 5 != 5 + 1
