@@ -7,4 +7,4 @@ b = 3
 if is_integer(a) and is_integer(b):
     print(add(a, b))
 else:
-    print("Exception: numbers")
+    print("Exception: Invalid input")
